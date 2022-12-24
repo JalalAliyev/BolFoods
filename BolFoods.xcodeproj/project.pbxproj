@@ -7,25 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA006F7829490E160054C174 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA006F7729490E160054C174 /* BasketViewController.swift */; };
+		FA006F7A29490E290054C174 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA006F7929490E290054C174 /* ProductDetailsViewController.swift */; };
+		FA006F7C29490E3E0054C174 /* BasketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA006F7B29490E3E0054C174 /* BasketViewModel.swift */; };
+		FA006F7E29490E530054C174 /* ProductDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA006F7D29490E530054C174 /* ProductDetailsViewModel.swift */; };
+		FA006F852949B3A50054C174 /* MainDishCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA006F832949B3A50054C174 /* MainDishCollectionViewCell.xib */; };
+		FA006F872949B7FF0054C174 /* MainDishCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA006F862949B7FF0054C174 /* MainDishCollectionViewCell.swift */; };
+		FA006F8A2949B8DF0054C174 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FA006F892949B8DF0054C174 /* Kingfisher */; };
+		FA006F8C2949BC6A0054C174 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA006F8B2949BC6A0054C174 /* Extensions.swift */; };
+		FA006F8F2949C18C0054C174 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FA006F8E2949C18C0054C174 /* RxSwift */; };
+		FA006F922949EAC50054C174 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA006F912949EAC50054C174 /* ProductView.swift */; };
+		FA006F95294A467B0054C174 /* ActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA006F94294A467B0054C174 /* ActionView.swift */; };
+		FA27F0B4294E50BE003F6B7F /* BasketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA27F0B2294E50BE003F6B7F /* BasketTableViewCell.swift */; };
+		FA27F0B5294E50BE003F6B7F /* BasketTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA27F0B3294E50BE003F6B7F /* BasketTableViewCell.xib */; };
+		FA83134A2956E67800FB9551 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8313492956E67800FB9551 /* LoginViewController.swift */; };
 		FAEC565F29464313003CC484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEC565E29464313003CC484 /* AppDelegate.swift */; };
 		FAEC566129464313003CC484 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEC566029464313003CC484 /* SceneDelegate.swift */; };
-		FAEC566329464313003CC484 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEC566229464313003CC484 /* ViewController.swift */; };
+		FAEC566329464313003CC484 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEC566229464313003CC484 /* HomeViewController.swift */; };
 		FAEC566629464313003CC484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEC566429464313003CC484 /* Main.storyboard */; };
 		FAEC566929464313003CC484 /* BolFoods.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAEC566729464313003CC484 /* BolFoods.xcdatamodeld */; };
 		FAEC566B29464315003CC484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEC566A29464315003CC484 /* Assets.xcassets */; };
 		FAEC566E29464315003CC484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEC566C29464315003CC484 /* LaunchScreen.storyboard */; };
+		FAEC567B294643FE003CC484 /* FoodsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEC567A294643FE003CC484 /* FoodsModel.swift */; };
+		FAEC567D29464524003CC484 /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEC567C29464524003CC484 /* CartModel.swift */; };
+		FAEC567F29464596003CC484 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEC567E29464596003CC484 /* Networking.swift */; };
+		FAEC5682294645B3003CC484 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FAEC5681294645B3003CC484 /* Alamofire */; };
+		FAEC568429464898003CC484 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEC568329464898003CC484 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA006F7729490E160054C174 /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		FA006F7929490E290054C174 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		FA006F7B29490E3E0054C174 /* BasketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewModel.swift; sourceTree = "<group>"; };
+		FA006F7D29490E530054C174 /* ProductDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewModel.swift; sourceTree = "<group>"; };
+		FA006F832949B3A50054C174 /* MainDishCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainDishCollectionViewCell.xib; sourceTree = "<group>"; };
+		FA006F862949B7FF0054C174 /* MainDishCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDishCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA006F8B2949BC6A0054C174 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FA006F912949EAC50054C174 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		FA006F94294A467B0054C174 /* ActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionView.swift; sourceTree = "<group>"; };
+		FA27F0B2294E50BE003F6B7F /* BasketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketTableViewCell.swift; sourceTree = "<group>"; };
+		FA27F0B3294E50BE003F6B7F /* BasketTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasketTableViewCell.xib; sourceTree = "<group>"; };
+		FA8313492956E67800FB9551 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FAEC565B29464313003CC484 /* BolFoods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BolFoods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEC565E29464313003CC484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAEC566029464313003CC484 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAEC566229464313003CC484 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAEC566229464313003CC484 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FAEC566529464313003CC484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAEC566829464313003CC484 /* BolFoods.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BolFoods.xcdatamodel; sourceTree = "<group>"; };
 		FAEC566A29464315003CC484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAEC566D29464315003CC484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAEC566F29464315003CC484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEC567A294643FE003CC484 /* FoodsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsModel.swift; sourceTree = "<group>"; };
+		FAEC567C29464524003CC484 /* CartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
+		FAEC567E29464596003CC484 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		FAEC568329464898003CC484 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +68,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA006F8F2949C18C0054C174 /* RxSwift in Frameworks */,
+				FA006F8A2949B8DF0054C174 /* Kingfisher in Frameworks */,
+				FAEC5682294645B3003CC484 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA006F7F2949B3000054C174 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				FA006F93294A46410054C174 /* ActionView */,
+				FA006F902949EAA20054C174 /* ProductView */,
+				FA006F802949B30F0054C174 /* CollectionViewCells */,
+				FA27F0B6294E50C5003F6B7F /* BasketTableViewCell */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		FA006F802949B30F0054C174 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				FA006F812949B3260054C174 /* CollectionViewCell */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		FA006F812949B3260054C174 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA006F832949B3A50054C174 /* MainDishCollectionViewCell.xib */,
+				FA006F862949B7FF0054C174 /* MainDishCollectionViewCell.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		FA006F902949EAA20054C174 /* ProductView */ = {
+			isa = PBXGroup;
+			children = (
+				FA006F912949EAC50054C174 /* ProductView.swift */,
+			);
+			path = ProductView;
+			sourceTree = "<group>";
+		};
+		FA006F93294A46410054C174 /* ActionView */ = {
+			isa = PBXGroup;
+			children = (
+				FA006F94294A467B0054C174 /* ActionView.swift */,
+			);
+			path = ActionView;
+			sourceTree = "<group>";
+		};
+		FA27F0B6294E50C5003F6B7F /* BasketTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA27F0B2294E50BE003F6B7F /* BasketTableViewCell.swift */,
+				FA27F0B3294E50BE003F6B7F /* BasketTableViewCell.xib */,
+			);
+			path = BasketTableViewCell;
+			sourceTree = "<group>";
+		};
 		FAEC565229464313003CC484 = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +149,67 @@
 		FAEC565D29464313003CC484 /* BolFoods */ = {
 			isa = PBXGroup;
 			children = (
-				FAEC565E29464313003CC484 /* AppDelegate.swift */,
-				FAEC566029464313003CC484 /* SceneDelegate.swift */,
-				FAEC566229464313003CC484 /* ViewController.swift */,
+				FAEC56752946431C003CC484 /* Resources */,
+				FAEC56762946432E003CC484 /* Repositories */,
+				FAEC567929464352003CC484 /* Models */,
+				FAEC56782946434B003CC484 /* Views */,
+				FAEC56772946433F003CC484 /* ViewModels */,
 				FAEC566429464313003CC484 /* Main.storyboard */,
-				FAEC566A29464315003CC484 /* Assets.xcassets */,
 				FAEC566C29464315003CC484 /* LaunchScreen.storyboard */,
 				FAEC566F29464315003CC484 /* Info.plist */,
 				FAEC566729464313003CC484 /* BolFoods.xcdatamodeld */,
 			);
 			path = BolFoods;
+			sourceTree = "<group>";
+		};
+		FAEC56752946431C003CC484 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAEC565E29464313003CC484 /* AppDelegate.swift */,
+				FAEC566029464313003CC484 /* SceneDelegate.swift */,
+				FAEC566A29464315003CC484 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAEC56762946432E003CC484 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				FAEC567E29464596003CC484 /* Networking.swift */,
+				FA006F8B2949BC6A0054C174 /* Extensions.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		FAEC56772946433F003CC484 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FAEC568329464898003CC484 /* HomeViewModel.swift */,
+				FA006F7B29490E3E0054C174 /* BasketViewModel.swift */,
+				FA006F7D29490E530054C174 /* ProductDetailsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FAEC56782946434B003CC484 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA006F7F2949B3000054C174 /* CustomViews */,
+				FAEC566229464313003CC484 /* HomeViewController.swift */,
+				FA006F7729490E160054C174 /* BasketViewController.swift */,
+				FA006F7929490E290054C174 /* ProductDetailsViewController.swift */,
+				FA8313492956E67800FB9551 /* LoginViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAEC567929464352003CC484 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAEC567A294643FE003CC484 /* FoodsModel.swift */,
+				FAEC567C29464524003CC484 /* CartModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +228,11 @@
 			dependencies = (
 			);
 			name = BolFoods;
+			packageProductDependencies = (
+				FAEC5681294645B3003CC484 /* Alamofire */,
+				FA006F892949B8DF0054C174 /* Kingfisher */,
+				FA006F8E2949C18C0054C174 /* RxSwift */,
+			);
 			productName = BolFoods;
 			productReference = FAEC565B29464313003CC484 /* BolFoods.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +261,11 @@
 				Base,
 			);
 			mainGroup = FAEC565229464313003CC484;
+			packageReferences = (
+				FAEC5680294645B3003CC484 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				FA006F882949B8DF0054C174 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				FA006F8D2949C18C0054C174 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = FAEC565C29464313003CC484 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -131,6 +283,8 @@
 				FAEC566E29464315003CC484 /* LaunchScreen.storyboard in Resources */,
 				FAEC566B29464315003CC484 /* Assets.xcassets in Resources */,
 				FAEC566629464313003CC484 /* Main.storyboard in Resources */,
+				FA006F852949B3A50054C174 /* MainDishCollectionViewCell.xib in Resources */,
+				FA27F0B5294E50BE003F6B7F /* BasketTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +295,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAEC566329464313003CC484 /* ViewController.swift in Sources */,
+				FA83134A2956E67800FB9551 /* LoginViewController.swift in Sources */,
+				FA006F7829490E160054C174 /* BasketViewController.swift in Sources */,
+				FAEC566329464313003CC484 /* HomeViewController.swift in Sources */,
 				FAEC566929464313003CC484 /* BolFoods.xcdatamodeld in Sources */,
+				FA006F7A29490E290054C174 /* ProductDetailsViewController.swift in Sources */,
+				FA006F95294A467B0054C174 /* ActionView.swift in Sources */,
+				FA006F7C29490E3E0054C174 /* BasketViewModel.swift in Sources */,
+				FAEC567B294643FE003CC484 /* FoodsModel.swift in Sources */,
+				FA006F872949B7FF0054C174 /* MainDishCollectionViewCell.swift in Sources */,
+				FA27F0B4294E50BE003F6B7F /* BasketTableViewCell.swift in Sources */,
+				FAEC568429464898003CC484 /* HomeViewModel.swift in Sources */,
 				FAEC565F29464313003CC484 /* AppDelegate.swift in Sources */,
 				FAEC566129464313003CC484 /* SceneDelegate.swift in Sources */,
+				FA006F922949EAC50054C174 /* ProductView.swift in Sources */,
+				FAEC567D29464524003CC484 /* CartModel.swift in Sources */,
+				FAEC567F29464596003CC484 /* Networking.swift in Sources */,
+				FA006F7E29490E530054C174 /* ProductDetailsViewModel.swift in Sources */,
+				FA006F8C2949BC6A0054C174 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +528,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA006F882949B8DF0054C174 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		FA006F8D2949C18C0054C174 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		FAEC5680294645B3003CC484 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA006F892949B8DF0054C174 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA006F882949B8DF0054C174 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		FA006F8E2949C18C0054C174 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA006F8D2949C18C0054C174 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		FAEC5681294645B3003CC484 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAEC5680294645B3003CC484 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		FAEC566729464313003CC484 /* BolFoods.xcdatamodeld */ = {
